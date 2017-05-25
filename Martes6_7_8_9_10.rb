@@ -52,14 +52,16 @@ mensaje.downcase!
 =end
 
  #NUMERO DE ENTRADAS  #9
-
+=begin
 def mayuscula_name
   p "Introduce tu nombre"
 nombre=gets.chomp
 p nombre.upcase
 end
 mayuscula_name()
+=end
 
+=begin
 def user
   cont=0
   loop do
@@ -71,15 +73,11 @@ def user
    puts "Veces que escribiste",cont
 end
 user
-
- 
-
+=end
 #ESTO ESTUVO DIFICIL...
-
 
 #MUESTRA LA DECADA DE UN AÑO  #10
 # Pruebas
-
 =begin
 def decade(year)
   case year

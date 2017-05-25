@@ -1,10 +1,10 @@
-# OBTENER UNA PALABRA  2
+# OBTENER UNA PALABRA  #2
 =begin
 utiles = [["libro", "libreta", "cuaderno"], ["carpeta", "folder"]]
 p utiles[1][0]
 =end
 
-# ANALIZANDO ARRAYS    3
+# ANALIZANDO ARRAYS    #3
 =begin
 array = ["pegamento", 7, 18, [24, ["refresco", "sprite"]], 12, { "firstname" => "Mark", "lastname" => "Martin", "age" => "24", "gender" => "M" }]
 
@@ -23,7 +23,7 @@ p array[3][1][1]
 =end
 
 
-# FORMANDO ARRAYS      4
+# FORMANDO ARRAYS      #4
 
 =begin
 def array_index(array,int)
@@ -51,7 +51,7 @@ p array_index(["a"], 3) == [["a", 1], ["a", 2], ["a", 3]]
 =end
 
 
-# PROMEDIO DE CALIFICACIONES 5
+# PROMEDIO DE CALIFICACIONES #5
 #prueba
 =begin
 def prueba (arr)
@@ -93,7 +93,7 @@ p average([5, 5, 5, 8, 8, 7, 7, 2]) == 5.875
 =end
 
 
-# TABLAS DE MULTIPLICAR  6
+# TABLAS DE MULTIPLICAR  #6
 
 #ejemplo de for loop
 =begin
